@@ -1,58 +1,216 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pugazhendhi V | Senior Full Stack Engineer</title>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  <!-- ONLY essentials, nothing fancy -->
+  <style>
+  body{
+    margin:0;
+    background:#0b0b0d;
+    color:#ffffff;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  }
+  .wrap{
+    max-width:1200px;
+    margin:0 auto;
+    padding:56px 24px 72px;
+  }
+  h1{
+    font-size:clamp(36px,5vw,52px);
+    margin-bottom:12px;
+    letter-spacing:-0.5px;
+  }
+  h2{
+    margin-top:72px;
+    margin-bottom:18px;
+    font-size:28px;
+    letter-spacing:-0.3px;
+    position:relative;
+  }
+  h2::after{
+    content:'';
+    display:block;
+    width:56px;
+    height:3px;
+    margin-top:10px;
+    background:#ff6a2a;
+    border-radius:3px;
+    opacity:.9;
+  }
+  p{line-height:1.7;color:#d1d5db}
+  .accent{color:#ff6a2a}
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  /* cards */
+  .card{
+    background:linear-gradient(180deg,#161618,#121214);
+    padding:28px;
+    border-radius:18px;
+    margin-bottom:20px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.45);
+    border:1px solid rgba(255,255,255,0.04);
+    transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  }
+  .card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 22px 56px rgba(0,0,0,0.65);
+    border-color:rgba(255,106,42,0.45);
+  }
+  .card h3{margin-top:0}
+  .card ul{padding-left:18px}
+  .card ul li{margin-bottom:6px}
+  .card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 20px 48px rgba(0,0,0,0.6);
+  }
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
+  /* grids */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:24px;
+  }
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  /* metric emphasis */
+  .metric-number{
+    font-size:32px;
+    font-weight:700;
+    color:#ff6a2a;
+    margin-bottom:6px;
+  }
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_portfolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>flutter_portfolio</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2088103229";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+  footer{
+    margin-top:80px;
+    padding-top:24px;
+    border-top:1px solid #1f2933;
+    color:#9ca3af;
+  }
+</style>
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <h1>Hi, I’m <span class="accent">Pugazhendhi</span></h1>
+  <p>Senior Full Stack Engineer building FinTech & enterprise systems.</p>
+  <p>.NET Core · Angular · Microservices · AML · Remittance</p>
+
+  <!-- METRICS -->
+  <h2>Impact</h2>
+  <div class="grid">
+    <div class="card"><h3 class="accent">1M+</h3><p>Transactions / Day</p></div>
+    <div class="card"><h3 class="accent">10+</h3><p>Enterprise Systems</p></div>
+    <div class="card"><h3 class="accent">5+</h3><p>Agile Teams</p></div>
+  </div>
+
+  <!-- SKILLS -->
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">.NET Core</div>
+    <div class="card">Angular</div>
+    <div class="card">Microservices</div>
+    <div class="card">RabbitMQ</div>
+    <div class="card">SQL / MySQL</div>
+    <div class="card">Flutter</div>
+  </div>
+
+  <!-- PROJECTS (CASE STUDIES) -->
+  <h2>Selected Case Studies</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Enterprise Remittance Platform</h3>
+      <p class="text-muted">Singapore · FinTech · Compliance-driven</p>
+      <ul>
+        <li>Designed microservices-based backend with RabbitMQ</li>
+        <li>Integrated AML / PEP screening (Bankers Accuity)</li>
+        <li>Generated MAS-compliant regulatory reports</li>
+      </ul>
+      <p><strong>Tech:</strong> .NET Core, Angular, SQL Server, RabbitMQ</p>
+    </div>
+
+    <div class="card">
+      <h3>Money Changer Platform</h3>
+      <p class="text-muted">Currency Exchange & Remittance</p>
+      <ul>
+        <li>Multi-currency exchange and international transfers</li>
+        <li>MyInfo onboarding with automated KYC</li>
+        <li>AML risk scoring and compliance automation</li>
+      </ul>
+      <p><strong>Tech:</strong> .NET Core, Angular, MySQL</p>
+    </div>
+
+    <div class="card">
+      <h3>Virtual Account Management System</h3>
+      <p class="text-muted">DBS Integration · Payments</p>
+      <ul>
+        <li>Unique virtual account creation per customer</li>
+        <li>Automated payment source identification</li>
+        <li>Transaction tracking and reconciliation reports</li>
+      </ul>
+      <p><strong>Tech:</strong> .NET Core API, SQL Server</p>
+    </div>
+
+    <div class="card">
+      <h3>ERP & CRM Management System</h3>
+      <p class="text-muted">Enterprise Internal Product</p>
+      <ul>
+        <li>Attendance and payroll automation</li>
+        <li>Role-based access control</li>
+        <li>Management dashboards and reports</li>
+      </ul>
+      <p><strong>Tech:</strong> ASP.NET MVC, SQL Server</p>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE (UNIQUE STYLE) -->
+  <h2>Experience</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div style="display:flex; gap:16px; align-items:flex-start;">
+        <div style="min-width:48px; height:48px; border-radius:14px; background:#ff6a2a; display:flex; align-items:center; justify-content:center; font-weight:800; color:#111;">DT</div>
+        <div>
+          <h3>DigitalTechz</h3>
+          <p class="text-muted">Senior Software Engineer · Oct 2021 – Present</p>
+          <p>Owning and delivering large-scale FinTech platforms including remittance, virtual accounts, AML workflows, and regulatory reporting.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex; gap:16px; align-items:flex-start;">
+        <div style="min-width:48px; height:48px; border-radius:14px; background:#1f2937; display:flex; align-items:center; justify-content:center; font-weight:700;">AT</div>
+        <div>
+          <h3>Abi Tech Software Solutions</h3>
+          <p class="text-muted">Software Developer · Aug 2020 – Jan 2021</p>
+          <p>Developed ERP & CRM systems with payroll, attendance automation, role-based access, and management reports.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex; gap:16px; align-items:flex-start;">
+        <div style="min-width:48px; height:48px; border-radius:14px; background:#020617; border:1px solid #374151; display:flex; align-items:center; justify-content:center; font-weight:700;">AA</div>
+        <div>
+          <h3>AAHA Software Solutions</h3>
+          <p class="text-muted">Junior Software Developer · Apr 2019 – Jun 2020</p>
+          <p>Worked on warehouse management modules including inventory tracking, order processing, and reporting.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- FOOTER -->
+  <footer>
+    <p>pugazh24.official@gmail.com · +91 81229 27132</p>
+    <p>© 2025 Pugazhendhi V</p>
+  </footer>
+
+</div>
+
 </body>
 </html>
