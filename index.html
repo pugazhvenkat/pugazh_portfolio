@@ -1,257 +1,1487 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pugazhendhi V | Senior Full Stack Engineer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pugazhendhi V | Senior Full Stack Developer (.NET Core & Angular)</title>
+  <meta name="description" content="Portfolio of Pugazhendhi V - Senior Full Stack Developer with nearly 6 years of experience specializing in ASP.NET Core, Angular, Microservices, RabbitMQ, and FinTech Solutions.">
+  <meta name="keywords" content="Pugazhendhi V, Full Stack Developer, .NET Core, Angular, Microservices, C#, SQL Server, FinTech, Software Engineer Puducherry">
+  <meta name="author" content="Pugazhendhi V">
 
-  <style>
-    body{
-      margin:0;
-      background:#0b0b0d;
-      color:#ffffff;
-      font-family: 'Inter', Arial, Helvetica, sans-serif;
-    }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-    .wrap{
-      max-width:1200px;
-      margin:0 auto;
-      padding:56px 24px 72px;
-    }
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
-    h1{
-      font-size:clamp(36px,5vw,52px);
-      margin-bottom:12px;
-      letter-spacing:-0.5px;
-    }
-
-    h2{
-      margin-top:72px;
-      margin-bottom:18px;
-      font-size:28px;
-      letter-spacing:-0.3px;
-      position:relative;
-    }
-
-    h2::after{
-      content:'';
-      display:block;
-      width:56px;
-      height:3px;
-      margin-top:10px;
-      background:#ff6a2a;
-      border-radius:3px;
-      opacity:.9;
-    }
-
-    p{line-height:1.7;color:#d1d5db}
-    .accent{color:#ff6a2a}
-
-    /* section spacing */
-    .section{
-      margin-bottom:80px;
-    }
-
-    /* cards */
-    .card{
-      background:linear-gradient(180deg,#161618,#121214);
-      padding:28px;
-      border-radius:18px;
-      box-shadow:0 12px 30px rgba(0,0,0,0.45);
-      border:1px solid rgba(255,255,255,0.04);
-      transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
-    }
-
-    .card:hover{
-      transform:translateY(-6px);
-      box-shadow:0 22px 56px rgba(0,0,0,0.65);
-      border-color:rgba(255,106,42,0.45);
-    }
-
-    .card h3{margin-top:0}
-    .card ul{padding-left:18px}
-    .card ul li{margin-bottom:6px}
-
-    /* grids */
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-      gap:24px;
-    }
-
-    footer{
-      margin-top:80px;
-      padding-top:24px;
-      border-top:1px solid #1f2933;
-      color:#9ca3af;
-    }
-
-    @media (max-width:768px){
-      .section{margin-bottom:56px;}
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
-<div class="wrap">
-
-  <!-- HERO -->
-  <h1>Hi, I’m <span class="accent">Pugazhendhi</span></h1>
-  <p>Senior Full Stack Engineer building FinTech & enterprise systems.</p>
-  <p>.NET Core · Angular · Microservices · AML · Remittance</p>
-
-  <!-- OBJECTIVE -->
-  <h2>Objective</h2>
-  <div class="section">
-    <div class="card">
-      <p>
-        Senior Full Stack Engineer with 5.6+ years of experience in designing,
-        developing, and maintaining scalable FinTech and enterprise applications.
-        Strong expertise in .NET Core, Angular, microservices architecture, and
-        compliance-driven systems including AML, KYC, and regulatory reporting.
-        Seeking to contribute technical excellence and system-design expertise
-        to high-impact product teams.
-      </p>
-    </div>
-  </div>
-
-  <!-- SKILLS -->
-  <h2>Skills</h2>
-  <div class="section">
-    <div class="grid">
-      <div class="card">🟠 .NET Core / C#</div>
-      <div class="card">🅰️ Angular</div>
-      <div class="card">🧩 Microservices Architecture</div>
-      <div class="card">📨 RabbitMQ / Messaging</div>
-      <div class="card">🗄️ SQL Server & MySQL</div>
-      <div class="card">📱 Flutter</div>
-    </div>
-  </div>
-
-  <!-- CASE STUDIES -->
-  <h2>Selected Case Studies</h2>
-  <div class="section">
-    <div class="grid">
-
-      <div class="card">
-        <h3>Enterprise Remittance Platform</h3>
-        <p class="text-muted">Singapore · FinTech · Compliance-driven</p>
-        <ul>
-          <li>Microservices backend with RabbitMQ</li>
-          <li>AML / PEP screening (Bankers Accuity)</li>
-          <li>MAS-compliant regulatory reporting</li>
-        </ul>
-        <p><strong>Tech:</strong> .NET Core, Angular, SQL Server, RabbitMQ</p>
-      </div>
-
-      <div class="card">
-        <h3>Money Changer Platform</h3>
-        <ul>
-          <li>Multi-currency exchange & remittance</li>
-          <li>MyInfo onboarding with automated KYC</li>
-          <li>AML risk scoring</li>
-        </ul>
-        <p><strong>Tech:</strong> .NET Core, Angular, MySQL</p>
-      </div>
-
-      <div class="card">
-        <h3>Virtual Account Management</h3>
-        <ul>
-          <li>Unique VA creation per customer</li>
-          <li>Automated reconciliation</li>
-          <li>Transaction reporting</li>
-        </ul>
-        <p><strong>Tech:</strong> .NET Core API, SQL Server</p>
-      </div>
-
-      <div class="card">
-        <h3>ERP & CRM System</h3>
-        <ul>
-          <li>Attendance & payroll automation</li>
-          <li>RBAC & dashboards</li>
-          <li>Management reports</li>
-        </ul>
-        <p><strong>Tech:</strong> ASP.NET MVC, SQL Server</p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- EXPERIENCE -->
-  <h2>Experience</h2>
-  <div class="section">
-    <div class="grid">
-
-      <div class="card">
-        <div style="display:flex;gap:16px;">
-          <div style="min-width:48px;height:48px;border-radius:14px;background:#ff6a2a;color:#111;
-                      display:flex;align-items:center;justify-content:center;font-weight:800;">
-            DT
-          </div>
-          <div>
-            <h3>
-              DigitalTechz
-              <span style="background:#ff6a2a;color:#111;font-size:12px;
-                           padding:4px 10px;border-radius:999px;margin-left:8px;">
-                Currently Working
-              </span>
-            </h3>
-            <p class="text-muted">Senior Software Engineer · Oct 2021 – Present</p>
-            <p>Owning and delivering FinTech platforms including remittance,
-               virtual accounts, AML workflows, and regulatory reporting.</p>
-          </div>
+  <!-- ========================================================================
+       NAVBAR
+       ======================================================================== -->
+  <nav class="navbar navbar-expand-lg navbar-custom" id="mainNavbar">
+    <div class="container-fluid px-lg-4 px-xl-5 px-3">
+      <a class="navbar-brand-custom flex-shrink-0 text-nowrap" href="#hero">
+        <div class="brand-monogram">PV</div>
+        <div class="brand-info">
+          <span class="brand-name">Pugazhendhi V</span>
+          <span class="brand-title">Full Stack .NET &amp; Angular</span>
         </div>
-      </div>
-
-      <div class="card">
-        <div style="display:flex;gap:16px;">
-          <div style="min-width:48px;height:48px;border-radius:14px;background:#1f2937;
-                      display:flex;align-items:center;justify-content:center;font-weight:700;">
-            AT
-          </div>
-          <div>
-            <h3>Abi Tech Software Solutions</h3>
-            <p class="text-muted">Software Developer · Aug 2020 – Jan 2021</p>
-            <p>Developed ERP & CRM systems with payroll, attendance automation,
-               RBAC, and reporting modules.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div style="display:flex;gap:16px;">
-          <div style="min-width:48px;height:48px;border-radius:14px;background:#020617;
-                      border:1px solid #374151;display:flex;align-items:center;
-                      justify-content:center;font-weight:700;">
-            AA
-          </div>
-          <div>
-            <h3>AAHA Software Solutions</h3>
-            <p class="text-muted">Junior Software Developer · Apr 2019 – Jun 2020</p>
-            <p>Worked on warehouse management systems including inventory tracking
-               and order processing.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>📧 pugazh24.official@gmail.com · 📞 +91 81229 27132</p>
-    <p>
-      🔗 <a href="https://www.linkedin.com/in/pugazhendhi-v-366034b1"
-            target="_blank"
-            style="color:#ff6a2a;text-decoration:none;">
-        linkedin.com/in/pugazhendhi-v-366034b1
       </a>
-    </p>
-    <p>© 2025 Pugazhendhi V</p>
+
+      <!-- Mobile Toggle & Actions -->
+      <div class="d-flex align-items-center gap-2 d-lg-none flex-shrink-0">
+        <button class="btn-theme-toggle" id="themeToggleBtnMobile" onclick="document.getElementById('themeToggleBtn').click()" aria-label="Toggle Theme">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+        <button class="navbar-toggler border-0 shadow-none p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-1 text-cyan"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 my-3 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom active" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav-actions-group d-flex align-items-center gap-2 gap-xl-3 ms-lg-3 mt-3 mt-lg-0 flex-shrink-0">
+          <button class="btn-theme-toggle d-none d-lg-inline-flex flex-shrink-0" id="themeToggleBtn" aria-label="Toggle Theme">
+            <i class="bi bi-sun-fill"></i>
+          </button>
+          <button class="btn-outline-glow btn-sm text-nowrap flex-shrink-0" data-bs-toggle="modal" data-bs-target="#digitalResumeModal">
+            <i class="bi bi-file-earmark-person-fill text-cyan"></i> View CV
+          </button>
+          <a href="#contact" class="btn-primary-gradient btn-sm text-nowrap flex-shrink-0">
+            <i class="bi bi-send-fill"></i> Hire Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <section class="hero-section" id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="container hero-content">
+      <div class="row align-items-center g-5">
+        
+        <!-- Left Hero Column -->
+        <div class="col-lg-7">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Available for Senior / Lead Full Stack Roles</span>
+          </div>
+
+          <p class="text-uppercase font-mono text-cyan fw-bold mb-2 letter-spacing-1">
+            <i class="bi bi-code-slash me-2"></i>Senior Software Engineer & Product Specialist
+          </p>
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Pugazhendhi V</span>
+          </h1>
+
+          <div class="typed-container">
+            <span class="text-secondary">Specialized in </span>
+            <span class="typed-text" id="typedText"></span>
+            <span class="typed-cursor"></span>
+          </div>
+
+          <p class="hero-description">
+            Accomplished and target-oriented <strong>Full Stack Developer with 5 years and 10 months</strong> of proven expertise in architecting resilient <strong>ASP.NET Core Web APIs, Angular SPAs, Event-Driven Microservices with RabbitMQ</strong>, and institutional FinTech payment integrations across European, Singaporean, and Hong Kong enterprise clients.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-primary-gradient">
+              <i class="bi bi-briefcase-fill"></i> Explore Featured Work
+            </a>
+            <button class="btn-outline-glow" data-bs-toggle="modal" data-bs-target="#digitalResumeModal">
+              <i class="bi bi-printer-fill"></i> Print / Download CV
+            </button>
+            <a href="#contact" class="btn-outline-glow">
+              <i class="bi bi-chat-dots-fill"></i> Let's Connect
+            </a>
+          </div>
+
+          <!-- Hero Quick Metrics Grid -->
+          <div class="hero-stats-grid" id="heroStats">
+            <div class="hero-stat-item">
+              <div class="stat-number counter-val" data-target="5.8" data-suffix=" Yrs">0</div>
+              <div class="stat-label">Experience</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number counter-val" data-target="6" data-suffix="+">0</div>
+              <div class="stat-label">Enterprise Products</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number counter-val" data-target="3" data-suffix="+">0</div>
+              <div class="stat-label">Global Markets</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-number counter-val" data-target="100" data-suffix="%">0</div>
+              <div class="stat-label">Agile & Scrum Delivery</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="col-lg-5">
+          <div class="hero-visual-card">
+            <div class="code-window-header">
+              <div class="window-dots">
+                <span class="window-dot red"></span>
+                <span class="window-dot yellow"></span>
+                <span class="window-dot green"></span>
+              </div>
+              <div class="window-title">PugazhendhiProfile.cs</div>
+              <div class="text-muted small"><i class="bi bi-check-circle-fill text-success"></i> Build Passing</div>
+            </div>
+
+            <div class="developer-profile-preview">
+              <div class="developer-avatar-wrapper">
+                <i class="bi bi-person-workspace avatar-icon"></i>
+              </div>
+              <div class="developer-info">
+                <h4>Pugazhendhi V</h4>
+                <span class="developer-role-tag">Senior Software Engineer</span>
+                <div class="developer-location">
+                  <i class="bi bi-geo-alt-fill text-cyan"></i> Puducherry, India
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive Code Snippet -->
+            <div class="code-snippet-box">
+              <div><span class="code-keyword">public class</span> <span class="code-variable">FullStackEngineer</span></div>
+              <div>{</div>
+              <div class="ps-3"><span class="code-property">public string</span> Experience =&gt; <span class="code-string">"5 Years 10 Months"</span>;</div>
+              <div class="ps-3"><span class="code-property">public string[]</span> CoreStack =&gt; <span class="code-keyword">new</span>[] {</div>
+              <div class="ps-4"><span class="code-string">"ASP.NET Core Web API"</span>, <span class="code-string">"Angular"</span>,</div>
+              <div class="ps-4"><span class="code-string">"C#"</span>, <span class="code-string">"RabbitMQ"</span>, <span class="code-string">"SQL Server"</span></div>
+              <div class="ps-3">};</div>
+              <div class="ps-3"><span class="code-property">public bool</span> OpenToRoles =&gt; <span class="code-keyword">true</span>;</div>
+              <div class="ps-3"><span class="code-comment">// Ready for challenging opportunities</span></div>
+              <div>}</div>
+            </div>
+
+            <div class="stack-pills-list">
+              <span class="stack-pill"><i class="bi bi-patch-check-fill text-success"></i> HackerRank Certified (100%)</span>
+              <span class="stack-pill"><i class="bi bi-cpu-fill text-cyan"></i> ASP.NET Core</span>
+              <span class="stack-pill"><i class="bi bi-layers-fill text-purple"></i> Microservices</span>
+              <span class="stack-pill"><i class="bi bi-lightning-charge-fill text-warning"></i> RabbitMQ</span>
+              <span class="stack-pill"><i class="bi bi-database-fill text-info"></i> SQL Server</span>
+              <span class="stack-pill"><i class="bi bi-browser-chrome text-primary"></i> Angular</span>
+              <span class="stack-pill"><i class="bi bi-shield-check text-success"></i> AML / MAS Compliant</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ABOUT & PROFILE SUMMARY SECTION
+       ======================================================================== -->
+  <section class="section-padding" id="about">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="bi bi-person-badge-fill"></i> Profile Synopsis</span>
+        <h2 class="section-title">Engineering High-Impact Digital Solutions</h2>
+        <p class="section-subtitle">
+          A passionate technologist who bridges business vision with clean, reliable, and fault-tolerant codebases.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        
+        <!-- Left Summary Card -->
+        <div class="col-lg-5">
+          <div class="glass-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="feature-icon-wrapper mb-0">
+                  <i class="bi bi-award-fill"></i>
+                </div>
+                <div>
+                  <h4 class="mb-1">Pugazhendhi V</h4>
+                  <span class="text-cyan fw-semibold font-mono small">Full Stack Product Developer</span>
+                </div>
+              </div>
+
+              <p class="text-secondary mb-4">
+                Dynamic and results-driven professional with a keen focus on <strong>Product Development</strong>. Seeking a challenging role in a prestigious organization to apply my passion and expertise to drive successful outcomes.
+              </p>
+
+              <div class="border-top border-bottom py-3 my-3" style="border-color: var(--border-color) !important;">
+                <div class="row g-3">
+                  <div class="col-6">
+                    <span class="text-muted d-block small">EXPERIENCE</span>
+                    <strong class="text-light">5 Years & 10 Months</strong>
+                  </div>
+                  <div class="col-6">
+                    <span class="text-muted d-block small">DEGREE</span>
+                    <strong class="text-light">MCA (Master of Computer Applications)</strong>
+                  </div>
+                  <div class="col-6">
+                    <span class="text-muted d-block small">METHODOLOGY</span>
+                    <strong class="text-light">Scrum & Agile Sprinting</strong>
+                  </div>
+                  <div class="col-6">
+                    <span class="text-muted d-block small">BASE LOCATION</span>
+                    <strong class="text-light">Puducherry, India</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-2 pt-3">
+              <button class="btn-primary-gradient w-100 justify-content-center" onclick="copyToClipboard('pugazh24.official@gmail.com', 'Email')">
+                <i class="bi bi-envelope-fill"></i> Copy Email
+              </button>
+              <a href="tel:+918122927132" class="btn-outline-glow w-100 justify-content-center">
+                <i class="bi bi-telephone-fill"></i> Call Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Pillars Grid -->
+        <div class="col-lg-7">
+          <div class="row g-3 h-100">
+            
+            <div class="col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon-wrapper">
+                  <i class="bi bi-code-square"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Full-Lifecycle Product Development</h5>
+                <p class="text-secondary small mb-0">
+                  Accomplished in developing robust software product modules, collaborating closely with product owners, and translating complex backlogs into meticulously crafted functional components.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon-wrapper purple">
+                  <i class="bi bi-bank2"></i>
+                </div>
+                <h5 class="fw-bold mb-2">FinTech & Regulatory Engineering</h5>
+                <p class="text-secondary small mb-0">
+                  Specialized in mission-critical financial systems: Virtual Accounts (DBS Bank HK), Remittance under Monetary Authority of Singapore (MAS) standards, and integrated AML/PEP screening.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon-wrapper emerald">
+                  <i class="bi bi-diagram-3-fill"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Microservices & Event Brokerage</h5>
+                <p class="text-secondary small mb-0">
+                  Architecting decoupled microservice ecosystems powered by RabbitMQ for resilient asynchronous messaging, background workers, and high-throughput real-time coordination.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon-wrapper amber">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <h5 class="fw-bold mb-2">Agile Scrum & Stakeholder Leadership</h5>
+                <p class="text-secondary small mb-0">
+                  Highly effective communicator with strong analytical and logical reasoning skills, adept at engaging stakeholders, product owners, and engineering teams across all business tiers.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       WORK EXPERIENCE TIMELINE
+       ======================================================================== -->
+  <section class="section-padding bg-secondary-subtle" id="experience" style="background: var(--bg-secondary) !important;">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="bi bi-briefcase-fill"></i> Career Timeline</span>
+        <h2 class="section-title">5+ Years of Progressive Software Engineering</h2>
+        <p class="section-subtitle">
+          A track record of continuous growth across high-stakes enterprise projects and multinational engagements.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        
+        <!-- Job 1 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge-date"><i class="bi bi-calendar3"></i> Feb 2026 - Apr 2026</span>
+            <h3 class="timeline-company">Tender Software India Private Limited</h3>
+            <div class="timeline-role">Senior Software Engineer</div>
+            <div class="timeline-location"><i class="bi bi-geo-alt"></i> Puducherry, India • European Client Engagement</div>
+            <ul class="timeline-bullets">
+              <li>Spearheaded backend architecture for <strong>Planning Beats</strong>, a high-concurrency event registration and coordination platform for European clients.</li>
+              <li>Orchestrated multi-role permission layers (Clients, DJ Admins, Staff, and Service Providers) utilizing robust RBAC.</li>
+              <li>Engineered real-time asynchronous dispatching and task assignment pipelines utilizing RabbitMQ and ASP.NET Core Web APIs.</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 mt-3">
+              <span class="tech-tag-sm">.NET Core Web API</span>
+              <span class="tech-tag-sm">Angular</span>
+              <span class="tech-tag-sm">RabbitMQ</span>
+              <span class="tech-tag-sm">SQL Server</span>
+              <span class="tech-tag-sm">JIRA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge-date"><i class="bi bi-calendar3"></i> Oct 2021 – Jan 2026 (4 Years 4 Months)</span>
+            <h3 class="timeline-company">DigitalTechz</h3>
+            <div class="timeline-role">Software Engineer (FinTech & Banking Lead)</div>
+            <div class="timeline-location"><i class="bi bi-geo-alt"></i> Puducherry, India • Singapore & Hong Kong Clients</div>
+            <ul class="timeline-bullets">
+              <li>Engineered enterprise <strong>DBS Virtual Account (VA) Integration</strong> for Transend HK, enabling automated receipt sweeping and currency booking.</li>
+              <li>Developed MAS-compliant <strong>Multi-User Remittance Platform</strong> for Singapore with real-time transaction tracking and Bankers Accuity AML/PEP sanction screening.</li>
+              <li>Built proprietary <strong>MoneyChanger</strong> platform integrating Singapore MyInfo API for instant KYC digital onboarding and compliance risk scoring.</li>
+              <li>Architected distributed microservices handling concurrent currency transactions with zero-loss audit trails.</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 mt-3">
+              <span class="tech-tag-sm">.NET Core Web API</span>
+              <span class="tech-tag-sm">Microservices</span>
+              <span class="tech-tag-sm">Angular</span>
+              <span class="tech-tag-sm">RabbitMQ</span>
+              <span class="tech-tag-sm">SQL Server & MySQL</span>
+              <span class="tech-tag-sm">DBS Bank APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge-date"><i class="bi bi-calendar3"></i> Aug 2020 – Jan 2021</span>
+            <h3 class="timeline-company">Abi Tech Software Solutions</h3>
+            <div class="timeline-role">Software Developer</div>
+            <div class="timeline-location"><i class="bi bi-geo-alt"></i> Puducherry, India • Enterprise Products</div>
+            <ul class="timeline-bullets">
+              <li>Developed an enterprise web-based <strong>ERP and CRM Management System</strong> using ASP.NET MVC and Entity Framework.</li>
+              <li>Automated mission-critical Attendance and Payroll Management modules, ensuring corporate policy compliance and precise tax computations.</li>
+              <li>Implemented configurable business reporting engines for executive leadership to gain real-time workforce analytics.</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 mt-3">
+              <span class="tech-tag-sm">ASP.NET MVC</span>
+              <span class="tech-tag-sm">Entity Framework</span>
+              <span class="tech-tag-sm">SQL Server</span>
+              <span class="tech-tag-sm">SSMS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 4 -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge-date"><i class="bi bi-calendar3"></i> Apr 2019 – Jun 2020</span>
+            <h3 class="timeline-company">AAHA Software Solutions Pvt Ltd</h3>
+            <div class="timeline-role">Junior Software Developer</div>
+            <div class="timeline-location"><i class="bi bi-geo-alt"></i> Puducherry, India • Chinese Client Engagement</div>
+            <ul class="timeline-bullets">
+              <li>Developed a comprehensive web-based <strong>Warehouse Management System</strong> for international supply chain operations.</li>
+              <li>Engineered real-time inventory tracking, multi-tiered product categorization, and sales order processing workflows.</li>
+              <li>Delivered complete <strong>multi-language internationalization (i18n)</strong> support enabling seamless English/Chinese operations.</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-1 mt-3">
+              <span class="tech-tag-sm">ASP.NET MVC</span>
+              <span class="tech-tag-sm">Entity Framework</span>
+              <span class="tech-tag-sm">SQL Server</span>
+              <span class="tech-tag-sm">GitHub</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FEATURED PROJECTS SHOWCASE (Filterable & Interactive Modal)
+       ======================================================================== -->
+  <section class="section-padding" id="projects">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="bi bi-grid-fill"></i> Production Portfolio</span>
+        <h2 class="section-title">Enterprise & FinTech Case Studies</h2>
+        <p class="section-subtitle">
+          A selection of enterprise-grade software products delivered with high performance, security, and scalability.
+        </p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+          <button class="filter-btn" data-filter="fintech">FinTech & Banking</button>
+          <button class="filter-btn" data-filter="microservices">Microservices & RabbitMQ</button>
+          <button class="filter-btn" data-filter="enterprise">Enterprise ERP & Supply Chain</button>
+        </div>
+      </div>
+
+      <div class="row g-4" id="projectsGrid">
+        
+        <!-- Project 1: Planning Beats -->
+        <div class="col-md-6 col-lg-4 project-grid-item" data-category="microservices enterprise">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category-tag">Cloud & Events</span>
+              <span class="client-location-tag"><i class="bi bi-globe-europe-africa text-info"></i> Europe</span>
+            </div>
+            <h4 class="project-title">Planning Beats</h4>
+            <div class="project-role-text">Senior Software Engineer • Team Size: 6</div>
+            <p class="project-description">
+              Multi-user event booking and service management system. Streamlines event registration, task assignments, role-based workflows for DJs (Admins), staff, and clients.
+            </p>
+            <div class="project-meta-info">
+              <div class="meta-item"><i class="bi bi-clock-history text-cyan"></i> 2026</div>
+              <div class="meta-item"><i class="bi bi-building"></i> Tender Software</div>
+            </div>
+            <div class="project-tech-tags">
+              <span class="tech-tag-sm">.NET Core Web API</span>
+              <span class="tech-tag-sm">Angular</span>
+              <span class="tech-tag-sm">RabbitMQ</span>
+              <span class="tech-tag-sm">SQL Server</span>
+            </div>
+            <button class="btn-project-details" data-project-id="planning-beats">
+              <i class="bi bi-arrow-up-right-circle"></i> Architecture & Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 2: Remittance -->
+        <div class="col-md-6 col-lg-4 project-grid-item" data-category="fintech microservices">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category-tag">FinTech & AML</span>
+              <span class="client-location-tag"><i class="bi bi-geo-alt-fill text-warning"></i> Singapore</span>
+            </div>
+            <h4 class="project-title">Transend Remittance</h4>
+            <div class="project-role-text">Software Engineer • Team Size: 4</div>
+            <p class="project-description">
+              Web-based remittance tracking system under MAS standards. Features real-time tracking, Bankers Accuity AML/PEP screening, and automated CDD/ECDD compliance.
+            </p>
+            <div class="project-meta-info">
+              <div class="meta-item"><i class="bi bi-shield-check text-success"></i> MAS Regulated</div>
+              <div class="meta-item"><i class="bi bi-people"></i> Retail & Agents</div>
+            </div>
+            <div class="project-tech-tags">
+              <span class="tech-tag-sm">Microservices</span>
+              <span class="tech-tag-sm">.NET Core</span>
+              <span class="tech-tag-sm">RabbitMQ</span>
+              <span class="tech-tag-sm">AML Screening</span>
+            </div>
+            <button class="btn-project-details" data-project-id="remittance">
+              <i class="bi bi-arrow-up-right-circle"></i> Architecture & Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 3: MoneyChanger -->
+        <div class="col-md-6 col-lg-4 project-grid-item" data-category="fintech">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category-tag">Digital FX Platform</span>
+              <span class="client-location-tag"><i class="bi bi-stars text-cyan"></i> In-House Product</span>
+            </div>
+            <h4 class="project-title">MoneyChanger FX</h4>
+            <div class="project-role-text">Software Engineer • Team Size: 5</div>
+            <p class="project-description">
+              Comprehensive foreign exchange platform for cross-border financial transactions. Integrated MyInfo Singapore API for instant customer onboarding and AML risk controls.
+            </p>
+            <div class="project-meta-info">
+              <div class="meta-item"><i class="bi bi-currency-exchange text-info"></i> Multi-Currency</div>
+              <div class="meta-item"><i class="bi bi-fingerprint"></i> MyInfo API</div>
+            </div>
+            <div class="project-tech-tags">
+              <span class="tech-tag-sm">.NET Core Web API</span>
+              <span class="tech-tag-sm">Angular</span>
+              <span class="tech-tag-sm">MySQL</span>
+              <span class="tech-tag-sm">AML Risk Engine</span>
+            </div>
+            <button class="btn-project-details" data-project-id="money-changer">
+              <i class="bi bi-arrow-up-right-circle"></i> Architecture & Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 4: DBS Virtual Account -->
+        <div class="col-md-6 col-lg-4 project-grid-item" data-category="fintech">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category-tag">Banking Gateway</span>
+              <span class="client-location-tag"><i class="bi bi-bank text-primary"></i> Hong Kong (DBS)</span>
+            </div>
+            <h4 class="project-title">DBS Virtual Account</h4>
+            <div class="project-role-text">Software Engineer • Team Size: 2</div>
+            <p class="project-description">
+              Corporate portal integrating DBS Bank Hong Kong Virtual Accounts (VA). Auto-directs client payments to master treasury accounts with currency booking and reconciliation.
+            </p>
+            <div class="project-meta-info">
+              <div class="meta-item"><i class="bi bi-link-45deg text-cyan"></i> Bank API Integration</div>
+              <div class="meta-item"><i class="bi bi-graph-up"></i> Real-time Ledger</div>
+            </div>
+            <div class="project-tech-tags">
+              <span class="tech-tag-sm">.NET Core Web API</span>
+              <span class="tech-tag-sm">Angular</span>
+              <span class="tech-tag-sm">SQL Server</span>
+              <span class="tech-tag-sm">DBS Treasury</span>
+            </div>
+            <button class="btn-project-details" data-project-id="dbs-virtual-account">
+              <i class="bi bi-arrow-up-right-circle"></i> Architecture & Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 5: CRM Management System -->
+        <div class="col-md-6 col-lg-4 project-grid-item" data-category="enterprise">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category-tag">Enterprise ERP & CRM</span>
+              <span class="client-location-tag"><i class="bi bi-building-gear text-light"></i> Enterprise Suite</span>
+            </div>
+            <h4 class="project-title">ERP & CRM System</h4>
+            <div class="project-role-text">Software Developer • Team Size: 4</div>
+            <p class="project-description">
+              Enterprise management suite automating corporate attendance, payroll processing, leave accruals, and configurable multi-tier business intelligence reporting.
+            </p>
+            <div class="project-meta-info">
+              <div class="meta-item"><i class="bi bi-cash-stack text-success"></i> Payroll Engine</div>
+              <div class="meta-item"><i class="bi bi-calendar-check"></i> Attendance Tracking</div>
+            </div>
+            <div class="project-tech-tags">
+              <span class="tech-tag-sm">ASP.NET MVC</span>
+              <span class="tech-tag-sm">Entity Framework</span>
+              <span class="tech-tag-sm">SQL Server</span>
+              <span class="tech-tag-sm">SSMS</span>
+            </div>
+            <button class="btn-project-details" data-project-id="crm-erp">
+              <i class="bi bi-arrow-up-right-circle"></i> Architecture & Details
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 6: Warehouse Management -->
+        <div class="col-md-6 col-lg-4 project-grid-item" data-category="enterprise">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-category-tag">Supply Chain & i18n</span>
+              <span class="client-location-tag"><i class="bi bi-box-seam text-danger"></i> China Client</span>
+            </div>
+            <h4 class="project-title">Warehouse System</h4>
+            <div class="project-role-text">Junior Software Developer • Team Size: 3</div>
+            <p class="project-description">
+              Web-based inventory tracking and sales ordering portal. Features real-time stock balances, multi-tier product hierarchies, and complete bilingual (English/Chinese) support.
+            </p>
+            <div class="project-meta-info">
+              <div class="meta-item"><i class="bi bi-translate text-purple"></i> Multi-Language</div>
+              <div class="meta-item"><i class="bi bi-boxes"></i> Multi-level Stock</div>
+            </div>
+            <div class="project-tech-tags">
+              <span class="tech-tag-sm">ASP.NET MVC</span>
+              <span class="tech-tag-sm">Entity Framework</span>
+              <span class="tech-tag-sm">SQL Server</span>
+              <span class="tech-tag-sm">Inventory Tracking</span>
+            </div>
+            <button class="btn-project-details" data-project-id="warehouse-management">
+              <i class="bi bi-arrow-up-right-circle"></i> Architecture & Details
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       TECHNICAL SKILLS & COMPETENCY MATRIX
+       ======================================================================== -->
+  <section class="section-padding bg-secondary-subtle" id="skills" style="background: var(--bg-secondary) !important;">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="bi bi-lightning-charge-fill"></i> Tech Stack</span>
+        <h2 class="section-title">Technical Mastery & Architecture Ecosystem</h2>
+        <p class="section-subtitle">
+          Hands-on production proficiency across the entire software development lifecycle.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- Category 1: Languages & Backend Frameworks -->
+        <div class="col-lg-6">
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon cyan">
+                <i class="bi bi-hdd-network-fill"></i>
+              </div>
+              <div>
+                <h4 class="mb-0">Backend & Server Architecture</h4>
+                <span class="text-muted small">C#, ASP.NET Core, APIs & Microservices</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-c-circle-fill text-cyan"></i> C# Language</span>
+                <span class="text-cyan font-mono">95%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="95"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-code-square text-cyan"></i> ASP.NET Core & Web API</span>
+                <span class="text-cyan font-mono">92%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="92"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-layers-half text-cyan"></i> Entity Framework (EF Core) / MVC</span>
+                <span class="text-cyan font-mono">90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-send-check text-cyan"></i> RabbitMQ & Microservices</span>
+                <span class="text-cyan font-mono">85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Frontend & UI Engineering -->
+        <div class="col-lg-6">
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon purple">
+                <i class="bi bi-window-fullscreen"></i>
+              </div>
+              <div>
+                <h4 class="mb-0">Frontend & Client Engineering</h4>
+                <span class="text-muted small">Angular, TypeScript, JavaScript & Modern Web</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-shield-shaded text-purple"></i> Angular Framework</span>
+                <span class="text-purple font-mono">90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill purple" data-width="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-filetype-tsx text-purple"></i> TypeScript</span>
+                <span class="text-purple font-mono">90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill purple" data-width="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-filetype-js text-purple"></i> JavaScript (ES6+)</span>
+                <span class="text-purple font-mono">88%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill purple" data-width="88"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="bi bi-filetype-html text-purple"></i> HTML5 & Modern CSS3 / Bootstrap</span>
+                <span class="text-purple font-mono">94%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill purple" data-width="94"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Databases & Data Engineering -->
+        <div class="col-lg-6">
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon emerald">
+                <i class="bi bi-database-check"></i>
+              </div>
+              <div>
+                <h4 class="mb-0">Database & Data Persistence</h4>
+                <span class="text-muted small">SQL Server, MySQL, MongoDB & Optimization</span>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="stack-pill"><i class="bi bi-database-fill text-success"></i> SQL Server (SSMS)</span>
+              <span class="stack-pill"><i class="bi bi-database text-info"></i> MySQL (Workbench)</span>
+              <span class="stack-pill"><i class="bi bi-server text-warning"></i> MongoDB</span>
+              <span class="stack-pill"><i class="bi bi-diagram-2 text-cyan"></i> Relational Schema Design</span>
+              <span class="stack-pill"><i class="bi bi-speedometer2 text-danger"></i> Query Optimization</span>
+              <span class="stack-pill"><i class="bi bi-journal-code text-light"></i> Stored Procedures & Triggers</span>
+            </div>
+
+            <p class="text-secondary small mb-0">
+              Experienced in designing normalized transactional databases, complex indexing, audit logging tables for FinTech reconciliation, and high-performance querying for corporate reporting engines.
+            </p>
+          </div>
+        </div>
+
+        <!-- Category 4: Tools, DevOps & Methodologies -->
+        <div class="col-lg-6">
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon amber">
+                <i class="bi bi-tools"></i>
+              </div>
+              <div>
+                <h4 class="mb-0">Tools & Agile Methodologies</h4>
+                <span class="text-muted small">Visual Studio, Git, JIRA & Scrum Framework</span>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="stack-pill"><i class="bi bi-laptop text-info"></i> Visual Studio</span>
+              <span class="stack-pill"><i class="bi bi-git text-danger"></i> Git & GitHub</span>
+              <span class="stack-pill"><i class="bi bi-kanban text-primary"></i> JIRA Sprint Planning</span>
+              <span class="stack-pill"><i class="bi bi-terminal text-light"></i> SSMS & Workbench</span>
+              <span class="stack-pill"><i class="bi bi-arrow-repeat text-success"></i> Agile & Scrum</span>
+              <span class="stack-pill"><i class="bi bi-shield-lock-fill text-warning"></i> AML & PEP Compliance</span>
+            </div>
+
+            <p class="text-secondary small mb-0">
+              Active participant in daily stand-ups, backlog grooming, sprint reviews, and technical refinement. Adept at translating business user stories into testable software deliverables.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PROFESSIONAL CERTIFICATIONS
+       ======================================================================== -->
+  <section class="section-padding" id="certifications">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="bi bi-patch-check-fill"></i> Verified Credentials</span>
+        <h2 class="section-title">Industry &amp; Skill Certifications</h2>
+        <p class="section-subtitle">
+          Official third-party technical skill verifications awarded by HackerRank with 100% assessment scores.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        
+        <!-- Cert 1: Software Engineer Role -->
+        <div class="col-lg-6">
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-icon-wrapper">
+                <i class="bi bi-award-fill"></i>
+              </div>
+              <span class="cert-badge-score">
+                <i class="bi bi-check-circle-fill"></i> Score: 100%
+              </span>
+            </div>
+
+            <h3 class="cert-title">Software Engineer Role Certification</h3>
+            <div class="cert-issuer">
+              <i class="bi bi-patch-check-fill text-success me-1"></i> HackerRank Verified • Completed Oct 2026
+            </div>
+            <div class="cert-id-tag">
+              <i class="bi bi-fingerprint me-1"></i> Credential ID: 62cd9ce6e5f4
+            </div>
+
+            <p class="cert-desc">
+              Rigorous standardized assessment verifying end-to-end software engineering capabilities. Evaluates complex algorithmic problem solving, clean code architecture, data structures, RESTful web services, and robust modular application development.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="tech-tag-sm">Software Engineering</span>
+              <span class="tech-tag-sm">Algorithms</span>
+              <span class="tech-tag-sm">Data Structures</span>
+              <span class="tech-tag-sm">System Design</span>
+              <span class="tech-tag-sm">Clean Architecture</span>
+            </div>
+
+            <div class="cert-actions">
+              <a href="https://www.hackerrank.com/certificates/iframe/62cd9ce6e5f4" target="_blank" rel="noopener noreferrer" class="btn-cert-verify">
+                <i class="bi bi-shield-fill-check"></i> Verify Credential
+              </a>
+              <button class="btn-cert-modal" onclick="openCertModal('Software Engineer Role Certification', 'https://www.hackerrank.com/certificates/iframe/62cd9ce6e5f4', '62cd9ce6e5f4', '100%')">
+                <i class="bi bi-eye-fill"></i> Live Preview
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cert 2: SQL Advanced Skill -->
+        <div class="col-lg-6">
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-icon-wrapper" style="background: rgba(14, 165, 233, 0.12); border-color: rgba(14, 165, 233, 0.3); color: var(--accent-cyan);">
+                <i class="bi bi-database-fill-check"></i>
+              </div>
+              <span class="cert-badge-score">
+                <i class="bi bi-check-circle-fill"></i> Score: 100%
+              </span>
+            </div>
+
+            <h3 class="cert-title">SQL (Advanced) Skills Certification</h3>
+            <div class="cert-issuer">
+              <i class="bi bi-patch-check-fill text-success me-1"></i> HackerRank Verified • Completed Jan 2026
+            </div>
+            <div class="cert-id-tag">
+              <i class="bi bi-fingerprint me-1"></i> Credential ID: 7c0ff0093d49
+            </div>
+
+            <p class="cert-desc">
+              Advanced technical assessment proving mastery of enterprise-grade relational database querying. Assesses deep knowledge of query optimization, indexing strategies, complex joins, window analytical functions, recursive subqueries, and database performance tuning.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="tech-tag-sm">Advanced SQL</span>
+              <span class="tech-tag-sm">Query Optimization</span>
+              <span class="tech-tag-sm">Window Functions</span>
+              <span class="tech-tag-sm">Indexing &amp; Tuning</span>
+              <span class="tech-tag-sm">Relational Schemas</span>
+            </div>
+
+            <div class="cert-actions">
+              <a href="https://www.hackerrank.com/certificates/iframe/7c0ff0093d49" target="_blank" rel="noopener noreferrer" class="btn-cert-verify">
+                <i class="bi bi-shield-fill-check"></i> Verify Credential
+              </a>
+              <button class="btn-cert-modal" onclick="openCertModal('SQL (Advanced) Skills Certification', 'https://www.hackerrank.com/certificates/iframe/7c0ff0093d49', '7c0ff0093d49', '100%')">
+                <i class="bi bi-eye-fill"></i> Live Preview
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ACADEMIC DETAILS & PERSONAL PROFILE
+       ======================================================================== -->
+  <section class="section-padding" id="education">
+    <div class="container">
+      <div class="row g-5">
+        
+        <!-- Left: Education -->
+        <div class="col-lg-7">
+          <span class="section-tag"><i class="bi bi-mortarboard-fill"></i> Credentials</span>
+          <h2 class="section-title">Academic Qualifications</h2>
+          <p class="text-secondary mb-4">Strong foundational education in Computer Applications and Science.</p>
+
+          <div class="edu-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="edu-year">2017 Graduation</span>
+              <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1">Master's Degree</span>
+            </div>
+            <h4 class="edu-title">Master Of Computer Applications (MCA)</h4>
+            <div class="edu-institution"><i class="bi bi-bank2 me-1"></i> Christ College of Engineering & Technology, Puducherry</div>
+            <p class="text-secondary small mt-2 mb-0">
+              Advanced coursework in Object-Oriented Software Engineering, Database Management Systems, Data Structures & Algorithms, Network Security, and Distributed Web Architecture.
+            </p>
+          </div>
+
+          <div class="edu-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="edu-year">2012 Completion</span>
+              <span class="badge bg-secondary-subtle text-light border px-2 py-1">Higher Secondary (XII)</span>
+            </div>
+            <h4 class="edu-title">Higher Secondary Certificate (XII)</h4>
+            <div class="edu-institution"><i class="bi bi-building me-1"></i> Kalaignar Karunanithi Boys Higher Secondary School</div>
+          </div>
+
+          <div class="edu-card">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="edu-year">2010 Completion</span>
+              <span class="badge bg-secondary-subtle text-light border px-2 py-1">Secondary School (X)</span>
+            </div>
+            <h4 class="edu-title">Secondary School Leaving Certificate (X)</h4>
+            <div class="edu-institution"><i class="bi bi-building me-1"></i> Govt High School</div>
+          </div>
+        </div>
+
+        <!-- Right: Personal Details & Spoken Languages -->
+        <div class="col-lg-5">
+          <span class="section-tag"><i class="bi bi-person-lines-fill"></i> Background</span>
+          <h2 class="section-title">Personal Details</h2>
+          <p class="text-secondary mb-4">Key personal particulars and communication proficiencies.</p>
+
+          <div class="glass-card">
+            <div class="mb-4">
+              <div class="text-muted small text-uppercase fw-semibold mb-1">Date of Birth</div>
+              <div class="fw-bold fs-5 text-light"><i class="bi bi-calendar-event text-cyan me-2"></i> 24 – Jan – 1995</div>
+            </div>
+
+            <div class="mb-4">
+              <div class="text-muted small text-uppercase fw-semibold mb-1">Spoken & Written Languages</div>
+              <div class="d-flex gap-2 mt-2">
+                <span class="stack-pill px-3 py-2 fs-6"><i class="bi bi-chat-heart-fill text-danger"></i> Tamil (Native)</span>
+                <span class="stack-pill px-3 py-2 fs-6"><i class="bi bi-translate text-info"></i> English (Professional)</span>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="text-muted small text-uppercase fw-semibold mb-1">Permanent Residential Address</div>
+              <div class="text-light small mt-1">
+                <i class="bi bi-geo-alt-fill text-cyan me-2"></i>
+                No.5 Anna Nagar, Ariyur, Puducherry – 605102, India
+              </div>
+            </div>
+
+            <div class="p-3 rounded-3" style="background: rgba(0, 242, 254, 0.05); border: 1px solid rgba(0, 242, 254, 0.2);">
+              <div class="d-flex align-items-center gap-2 mb-1">
+                <i class="bi bi-globe2 text-cyan"></i>
+                <span class="fw-bold text-light small">Work Preference</span>
+              </div>
+              <p class="text-secondary small mb-0">
+                Open to Full-Time, Remote, Hybrid, or On-site positions in prestigious software organizations worldwide.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CONTACT & GET IN TOUCH SECTION
+       ======================================================================== -->
+  <section class="section-padding bg-secondary-subtle" id="contact" style="background: var(--bg-secondary) !important;">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="bi bi-envelope-open-fill"></i> Get In Touch</span>
+        <h2 class="section-title">Let's Build Something Exceptional Together</h2>
+        <p class="section-subtitle">
+          Have an upcoming project, engineering leadership vacancy, or need a skilled .NET Core & Angular specialist? Let's connect!
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        
+        <!-- Contact Cards Column -->
+        <div class="col-lg-5">
+          <div class="contact-info-card">
+            <div class="contact-icon-box">
+              <i class="bi bi-envelope-at-fill"></i>
+            </div>
+            <div class="flex-grow-1">
+              <span class="text-muted small d-block">EMAIL ADDRESS</span>
+              <a href="mailto:pugazh24.official@gmail.com" class="text-light fw-bold fs-6 d-block">pugazh24.official@gmail.com</a>
+              <button class="btn btn-sm btn-link text-cyan p-0 mt-1 text-decoration-none" onclick="copyToClipboard('pugazh24.official@gmail.com', 'Email')">
+                <i class="bi bi-clipboard me-1"></i> Copy to Clipboard
+              </button>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon-box" style="background: rgba(16, 185, 129, 0.1); color: var(--accent-emerald);">
+              <i class="bi bi-telephone-outbound-fill"></i>
+            </div>
+            <div class="flex-grow-1">
+              <span class="text-muted small d-block">DIRECT PHONE / WHATSAPP</span>
+              <a href="tel:+918122927132" class="text-light fw-bold fs-6 d-block">+91 8122927132</a>
+              <button class="btn btn-sm btn-link text-cyan p-0 mt-1 text-decoration-none" onclick="copyToClipboard('+918122927132', 'Phone number')">
+                <i class="bi bi-clipboard me-1"></i> Copy to Clipboard
+              </button>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon-box" style="background: rgba(139, 92, 246, 0.1); color: var(--accent-purple);">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="flex-grow-1">
+              <span class="text-muted small d-block">LOCATION</span>
+              <div class="text-light fw-semibold small">No.5 Anna Nagar, Ariyur</div>
+              <div class="text-secondary small">Puducherry – 605102, India</div>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon-box" style="background: rgba(245, 158, 11, 0.1); color: var(--accent-amber);">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <div class="flex-grow-1">
+              <span class="text-muted small d-block">RESPONSE TIME</span>
+              <div class="text-light fw-semibold small">Within 24 Hours</div>
+              <div class="text-secondary small">Available across standard Indian & Global timezones</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div class="col-lg-7">
+          <div class="glass-card h-100">
+            <h4 class="mb-3">Send a Direct Message</h4>
+            <p class="text-secondary small mb-4">
+              Feel free to reach out with project inquiries, technical opportunities, or collaboration proposals.
+            </p>
+
+            <form id="portfolioContactForm" class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="senderName">Your Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="senderName" placeholder="e.g. Alex Morgan" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="senderEmail">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="senderEmail" placeholder="e.g. alex@company.com" required>
+                </div>
+                <div class="col-12">
+                  <label for="senderSubject">Subject</label>
+                  <input type="text" class="form-control" id="senderSubject" placeholder="Senior .NET / Angular Opportunity / Project Consultation">
+                </div>
+                <div class="col-12">
+                  <label for="senderMessage">Your Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="senderMessage" rows="5" placeholder="Hi Pugazhendhi, I came across your portfolio and would love to discuss..." required></textarea>
+                </div>
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn-primary-gradient w-100 justify-content-center py-3">
+                    <i class="bi bi-send-fill"></i> Dispatch Message to Pugazhendhi
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="py-4 border-top" style="border-color: var(--border-color) !important; background: var(--bg-primary);">
+    <div class="container">
+      <div class="row align-items-center justify-content-between g-3">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mb-1">
+            <div class="brand-monogram" style="width: 28px; height: 28px; font-size: 0.8rem;">PV</div>
+            <strong class="text-light">Pugazhendhi V</strong>
+          </div>
+          <p class="text-muted small mb-0">
+            Crafted for high performance, accessibility, and responsiveness. Powered by HTML5, Bootstrap 5 &amp; Modern CSS.
+          </p>
+        </div>
+
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-end gap-3 mb-2">
+            <a href="mailto:pugazh24.official@gmail.com" class="text-secondary fs-5" title="Email Pugazhendhi"><i class="bi bi-envelope-fill"></i></a>
+            <a href="tel:+918122927132" class="text-secondary fs-5" title="Call Pugazhendhi"><i class="bi bi-telephone-fill"></i></a>
+            <button class="btn btn-sm btn-outline-secondary py-1 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#digitalResumeModal">
+              <i class="bi bi-file-text me-1"></i> Digital CV
+            </button>
+          </div>
+          <div class="text-muted small">
+            &copy; 2026 Pugazhendhi V. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
-</div>
+  <!-- ========================================================================
+       BACK TO TOP BUTTON
+       ======================================================================== -->
+  <button class="btn-back-to-top" id="backToTopBtn" aria-label="Back to Top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
 
+  <!-- ========================================================================
+       PROJECT DETAILS MODAL
+       ======================================================================== -->
+  <div class="modal fade" id="projectDetailsModal" tabindex="-1" aria-labelledby="modalProjectTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-wrapper pe-3">
+            <h4 class="modal-title fw-bold mb-0" id="modalProjectTitle">Project Title</h4>
+            <div id="modalProjectClient" class="small mt-1 text-info">Client</div>
+          </div>
+          <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3 mb-4 p-3 rounded-3" style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color);">
+            <div class="col-sm-4">
+              <span class="text-muted small d-block">ROLE & COMPANY</span>
+              <strong class="text-light small" id="modalProjectRole">-</strong>
+            </div>
+            <div class="col-sm-4">
+              <span class="text-muted small d-block">TIMELINE</span>
+              <strong class="text-light small" id="modalProjectPeriod">-</strong>
+            </div>
+            <div class="col-sm-4">
+              <span class="text-muted small d-block">TEAM COMPOSITION</span>
+              <strong class="text-light small" id="modalProjectTeam">-</strong>
+            </div>
+          </div>
+
+          <h5 class="fw-bold mb-2 text-cyan"><i class="bi bi-info-circle me-2"></i>Executive Summary</h5>
+          <p class="text-secondary" id="modalProjectOverview"></p>
+
+          <h5 class="fw-bold mb-2 text-cyan mt-4"><i class="bi bi-diagram-3 me-2"></i>System Architecture & Technical Flow</h5>
+          <div class="p-3 rounded-3 mb-3" style="background: rgba(0, 242, 254, 0.05); border: 1px solid rgba(0, 242, 254, 0.2);">
+            <p class="text-light font-mono small mb-0" id="modalProjectArchitecture"></p>
+          </div>
+
+          <h5 class="fw-bold mb-2 text-cyan mt-4"><i class="bi bi-check2-all me-2"></i>Key Engineering Deliverables & Modules</h5>
+          <ul class="list-unstyled ps-0" id="modalProjectFeatures"></ul>
+
+          <h5 class="fw-bold mb-2 text-cyan mt-4"><i class="bi bi-stack me-2"></i>Technologies & Tools Utilized</h5>
+          <div class="d-flex flex-wrap gap-2" id="modalProjectTech"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-outline-glow btn-sm" data-bs-dismiss="modal">Close Window</button>
+          <a href="#contact" class="btn-primary-gradient btn-sm" data-bs-dismiss="modal">Discuss Similar Solution</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       CERTIFICATION LIVE PREVIEW MODAL
+       ======================================================================== -->
+  <div class="modal fade" id="certViewerModal" tabindex="-1" aria-labelledby="certModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title-wrapper pe-3">
+            <h5 class="modal-title fw-bold mb-0" id="certModalTitle">Certificate Title</h5>
+            <div class="small text-success d-flex align-items-center gap-1 mt-1">
+              <i class="bi bi-patch-check-fill"></i> HackerRank Official Verified Credential • <span id="certModalId"></span> • <span id="certModalScore" class="fw-bold"></span>
+            </div>
+          </div>
+          <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <div class="modal-body p-3">
+          <div class="cert-iframe-wrapper">
+            <iframe id="certIframe" src="" title="HackerRank Certificate" loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a id="certExternalLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary-gradient btn-sm">
+            <i class="bi bi-box-arrow-up-right me-1"></i> Open on HackerRank
+          </a>
+          <button type="button" class="btn-outline-glow btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       INTERACTIVE ATS-READY DIGITAL RESUME MODAL (WITH ONE-CLICK PRINT)
+       ======================================================================== -->
+  <div class="modal fade" id="digitalResumeModal" tabindex="-1" aria-labelledby="resumeModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header d-print-none">
+          <div class="modal-title-wrapper d-flex align-items-center gap-2 pe-3">
+            <i class="bi bi-file-earmark-text-fill text-cyan fs-4 flex-shrink-0"></i>
+            <div>
+              <h5 class="modal-title fw-bold mb-0" id="resumeModalTitle">Pugazhendhi V - Curriculum Vitae</h5>
+              <div class="text-muted small">Official Printable &amp; ATS-Formatted Document</div>
+            </div>
+          </div>
+          <div class="modal-header-actions d-flex align-items-center gap-2 flex-shrink-0">
+            <button class="btn btn-sm btn-primary-gradient text-nowrap" onclick="printResume()">
+              <i class="bi bi-printer-fill me-1"></i> Print / Save as PDF
+            </button>
+            <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="modal-body p-4 p-md-5">
+          <div class="resume-modal-sheet mx-auto" style="max-width: 900px;">
+            
+            <!-- Resume Header -->
+            <div class="resume-header d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+              <div>
+                <h1 class="resume-name">Pugazhendhi V</h1>
+                <div class="text-muted fw-semibold">Senior Full Stack Developer • ASP.NET Core & Angular Specialist</div>
+              </div>
+              <div class="text-md-end small">
+                <div><i class="bi bi-envelope-fill text-primary me-1"></i> <a href="mailto:pugazh24.official@gmail.com" class="text-dark">pugazh24.official@gmail.com</a></div>
+                <div><i class="bi bi-telephone-fill text-primary me-1"></i> <a href="tel:+918122927132" class="text-dark">+91 8122927132</a></div>
+                <div><i class="bi bi-geo-alt-fill text-primary me-1"></i> Puducherry, India - 605102</div>
+              </div>
+            </div>
+
+            <!-- Synopsis -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Professional Synopsis</div>
+              <p class="text-dark mb-0">
+                Dynamic and results-driven professional with a keen focus on <strong>Product Development</strong>. Seeking a challenging role in a prestigious organization to apply my passion and expertise to drive successful outcomes.
+              </p>
+            </div>
+
+            <!-- Profile Summary -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Profile Summary</div>
+              <ul class="mb-0 text-dark">
+                <li>Accomplished and target-oriented <strong>Full Stack Developer with a robust 5 years and 10 months of experience</strong>.</li>
+                <li>Expertise in developing software product modules, collaborating closely with product owners, and consistently demonstrating a collaborative team-oriented approach.</li>
+                <li>Active participant in <strong>Scrum methodology</strong>, proficient in translating product backlogs into meticulously crafted functional components for a seamlessly deliverable product.</li>
+                <li>A highly effective communicator possessing excellent analytical and logical skills, adept at engaging with stakeholders at all levels of business and management.</li>
+              </ul>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Technical Skills</div>
+              <table class="table table-sm table-bordered text-dark mb-0">
+                <tbody>
+                  <tr>
+                    <th style="width: 25%;" class="bg-light">Languages</th>
+                    <td>C#, JavaScript, TypeScript</td>
+                  </tr>
+                  <tr>
+                    <th class="bg-light">Web Technologies</th>
+                    <td>ASP.NET Core, ASP.NET Core Web API, EF Core, Angular, HTML5, CSS</td>
+                  </tr>
+                  <tr>
+                    <th class="bg-light">Databases</th>
+                    <td>SQL Server, MySQL, MongoDB</td>
+                  </tr>
+                  <tr>
+                    <th class="bg-light">Tools</th>
+                    <td>Visual Studio, Git, JIRA, Workbench, SSMS</td>
+                  </tr>
+                  <tr>
+                    <th class="bg-light">Methodologies</th>
+                    <td>Agile, Scrum</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Work Experience</div>
+              <ul class="mb-0 text-dark">
+                <li class="mb-2">
+                  <strong>Tender Software India Private Limited</strong>, Puducherry — <em>Senior Software Engineer</em> (Feb 2026 - Apr 2026)
+                </li>
+                <li class="mb-2">
+                  <strong>DigitalTechz</strong>, Puducherry — <em>Software Engineer</em> (Oct 2021 – Jan 2026)
+                </li>
+                <li class="mb-2">
+                  <strong>Abi Tech Software Solutions</strong>, Puducherry — <em>Software Developer</em> (Aug 2020 – Jan 2021)
+                </li>
+                <li class="mb-2">
+                  <strong>AAHA Software Solutions Pvt Ltd</strong>, Puducherry — <em>Junior Software Developer</em> (Apr 2019 – Jun 2020)
+                </li>
+              </ul>
+            </div>
+
+            <!-- Professional Certifications -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Professional Certifications</div>
+              <ul class="mb-0 text-dark">
+                <li class="mb-2">
+                  <strong>Software Engineer Role Certification</strong> — HackerRank (Score: 100%, Oct 2026)
+                  <div class="small text-muted">Credential ID: <code>62cd9ce6e5f4</code> | Verification: <a href="https://www.hackerrank.com/certificates/iframe/62cd9ce6e5f4" target="_blank" rel="noopener noreferrer" class="text-primary text-decoration-underline">Verify HackerRank Credential</a></div>
+                </li>
+                <li class="mb-2">
+                  <strong>SQL (Advanced) Skills Certification</strong> — HackerRank (Score: 100%, Jan 2026)
+                  <div class="small text-muted">Credential ID: <code>7c0ff0093d49</code> | Verification: <a href="https://www.hackerrank.com/certificates/iframe/7c0ff0093d49" target="_blank" rel="noopener noreferrer" class="text-primary text-decoration-underline">Verify HackerRank Credential</a></div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Academic Details -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Academic Details</div>
+              <ul class="mb-0 text-dark">
+                <li><strong>MCA (Master Of Computer Applications)</strong>, Christ College of Engineering & Technology in 2017</li>
+                <li><strong>XII</strong> from Kalaignar Karunanithi Boys Hr. Sec. School in 2012</li>
+                <li><strong>X</strong> from Govt High School in 2010</li>
+              </ul>
+            </div>
+
+            <!-- Detailed Projects -->
+            <div class="mb-3">
+              <div class="resume-section-heading">Project Experience & Contributions</div>
+
+              <!-- Proj 1 -->
+              <div class="mb-3">
+                <h6 class="fw-bold mb-1 text-primary">Planning Beats | Tender Software India Private Limited</h6>
+                <div class="small text-muted mb-1">
+                  <strong>Role:</strong> Senior Software Engineer | <strong>Client:</strong> Planning Beats (Europe) | <strong>Team Size:</strong> 6<br>
+                  <strong>Platform:</strong> .NET Core Web API, Angular, SQL Server, RabbitMQ | <strong>Tools:</strong> Visual Studio, GitHub, SSMS, JIRA
+                </div>
+                <p class="small text-dark mb-0">
+                  Developed a web-based, multi-user event registration and planning management system designed to streamline event coordination and service management. The platform supports multiple roles including clients, DJ (admin), staff, and service providers, enabling efficient collaboration and workflow execution. Key features include event booking and registration, real-time task assignment, service management, and role-based access control.
+                </p>
+              </div>
+
+              <!-- Proj 2 -->
+              <div class="mb-3">
+                <h6 class="fw-bold mb-1 text-primary">Remittance | DigitalTechz</h6>
+                <div class="small text-muted mb-1">
+                  <strong>Role:</strong> Software Engineer | <strong>Client:</strong> Transend PTE LTD (Singapore) | <strong>Team Size:</strong> 4<br>
+                  <strong>Platform:</strong> .NET Core Web API, Microservices, Angular, SQL Server, RabbitMQ | <strong>Tools:</strong> Visual Studio, GitHub, SSMS, JIRA
+                </div>
+                <p class="small text-dark mb-0">
+                  Developed a web-based, multi-user remittance tracking system for retailers and agents. Key features include sender and beneficiary management, real-time transaction tracking, integrated AML/PEP screening using Bankers Accuity, and compliance reporting as per MAS standards. The system also supports CDD/ECDD processes and generates daily, management, and audit reports.
+                </p>
+              </div>
+
+              <!-- Proj 3 -->
+              <div class="mb-3">
+                <h6 class="fw-bold mb-1 text-primary">MoneyChanger | DigitalTechz</h6>
+                <div class="small text-muted mb-1">
+                  <strong>Role:</strong> Software Engineer | <strong>Client:</strong> Own Product | <strong>Team Size:</strong> 5<br>
+                  <strong>Platform:</strong> .NET Core Web API, Angular, MySQL | <strong>Tools:</strong> Visual Studio, GitHub, Workbench, JIRA
+                </div>
+                <p class="small text-dark mb-0">
+                  Developed a comprehensive money changer platform that simplifies global financial transactions for individuals and businesses. The system supports currency exchange and international remittance services at competitive rates, with integrated MyInfo for seamless customer registration and AML (Anti-Money Laundering) functionalities for compliance, risk management, and reports.
+                </p>
+              </div>
+
+              <!-- Proj 4 -->
+              <div class="mb-3">
+                <h6 class="fw-bold mb-1 text-primary">Transend HK DBS Virtual Account Integration | DigitalTechz</h6>
+                <div class="small text-muted mb-1">
+                  <strong>Role:</strong> Software Engineer | <strong>Client:</strong> Transend PTE LTD (Hong Kong) | <strong>Team Size:</strong> 2<br>
+                  <strong>Platform:</strong> .NET Core Web API, Angular, SQL Server | <strong>Tools:</strong> Visual Studio, GitHub, SSMS, JIRA
+                </div>
+                <p class="small text-dark mb-0">
+                  Developed a portal that enables customers to create and manage Virtual Accounts (VA) for payment tracking. Each VA is uniquely assigned to a customer, allowing seamless identification of payment sources. Payments to these VAs are auto-directed to the company's master account. The portal also supports currency booking for transactions and reports.
+                </p>
+              </div>
+
+              <!-- Proj 5 -->
+              <div class="mb-3">
+                <h6 class="fw-bold mb-1 text-primary">CRM Management System | Abi Tech Software Solution</h6>
+                <div class="small text-muted mb-1">
+                  <strong>Role:</strong> Software Developer | <strong>Client:</strong> Own Product | <strong>Team Size:</strong> 4<br>
+                  <strong>Platform:</strong> MVC asp.net, Entity Framework, SQL Server | <strong>Tools:</strong> Visual Studio, GitHub, SSMS
+                </div>
+                <p class="small text-dark mb-0">
+                  Developed a web-based ERP and CRM Management System using ASP.NET MVC, Entity Framework, and SQL Server for enterprise clients. Worked on the Attendance and Payroll Management modules, automating employee attendance, leave tracking, and payroll processing to ensure accuracy and policy compliance.
+                </p>
+              </div>
+
+              <!-- Proj 6 -->
+              <div class="mb-3">
+                <h6 class="fw-bold mb-1 text-primary">Warehouse Management System | AAHA Software Solutions</h6>
+                <div class="small text-muted mb-1">
+                  <strong>Role:</strong> Junior Software Developer | <strong>Client:</strong> Chinese Client | <strong>Team Size:</strong> 3<br>
+                  <strong>Platform:</strong> MVC asp.net, Entity Framework, SQL Server | <strong>Tools:</strong> Visual Studio, GitHub, SSMS
+                </div>
+                <p class="small text-dark mb-0">
+                  Developed a web-based Warehouse Management System for a Chinese client using ASP.NET MVC, Entity Framework, and SQL Server. Worked on Stock Management and Sales Ordering modules, focusing on real-time inventory tracking, product categorization, and order processing with multi-level product and multilanguage support.
+                </p>
+              </div>
+            </div>
+
+            <!-- Personal Details -->
+            <div>
+              <div class="resume-section-heading">Personal Details</div>
+              <ul class="list-unstyled mb-0 text-dark small">
+                <li><strong>Date of Birth:</strong> 24 – Jan – 1995</li>
+                <li><strong>Languages:</strong> Tamil &amp; English</li>
+                <li><strong>Mailing Address:</strong> No.5 Anna Nagar, Ariyur, Puducherry 605102</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="modal-footer d-print-none">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary-gradient" onclick="printResume()">
+            <i class="bi bi-printer-fill me-1"></i> Print / Save as PDF
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3.3 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
 </body>
 </html>
